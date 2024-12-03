@@ -20,9 +20,13 @@ def pairSum(nums,target):
     hashmap={}
     for i in range(len(nums)):
         if target-nums[i] in hashmap:
-            return [i,hashmap[target-nums[i]]]
+            return [hashmap[target-nums[i]],i]
         else:
             hashmap[nums[i]]=i
+list1=[2,7,11,15]
+target=9
+result=pairSum(list1,target)
+print(result)
 #Time Complexity -- O(n)
 #Space Complexity -- O(1)
 #Leetcode Verdict -- Accepted
