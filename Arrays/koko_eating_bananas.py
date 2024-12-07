@@ -45,6 +45,6 @@ def canKokoPlace(self,piles,mid,h):
             else:
                 left=mid+1
         return left
-#Time Complexity -- O(Nlogw)
+#Time Complexity -- O(nlogm) ---> where n is the number of piles and m is the maximum number of bananas in a single pile.
 #Space Complexity -- O(1)
 #Leetcode Verdict -- Accepted
