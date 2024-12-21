@@ -1,5 +1,5 @@
-#Leetcode 875
-#MEDIUM
+#Leetcode 350
+#EASY
 
 
 #BRUTE FORCE APPROACH
